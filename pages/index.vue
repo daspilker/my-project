@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+    title: 'Ferienwohnung'
+})
+</script>
+
 <template>
     <div class="container">
         <h1 class="row">Ferienwohnung</h1>

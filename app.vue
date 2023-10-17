@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useHead({
+  meta: [
+    { name: 'description', content: 'My amazing site.' }
+  ]
+})
+</script>
+
 <template>
   <div class="container py-4 px-3 mx-auto">
     <nav class="navbar navbar-expand-md bg-primary-subtle">
