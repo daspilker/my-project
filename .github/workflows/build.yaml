@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: NUXT_APP_BASE_URL=/my-project/ npm run generate
+      - run: npm run generate
       - name: Fix permissions
         run: |
           chmod -c -R +rX ".output/public" | while read line; do
